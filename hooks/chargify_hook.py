@@ -7,7 +7,8 @@ class ChargifyHook(HttpHook):
 
     Inherits from the base HttpHook to make a request to Chargify.
     Uses basic authentication via an API Key that should
-    be stored in the 'Login' field in the Airflow Connection panel.
+    be stored in the 'Login' field in the Airflow Connection panel
+    with an 'X' as the password.
 
     Defaults to GET requests.
 
